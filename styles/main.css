@@ -1,10 +1,13 @@
 
+
     /* ================================= 
   Base Element Styles
 ==================================== */
     @import url("https://fonts.googleapis.com/css?family=Comfortaa|Patua+One");
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
     /* ================================= 
   Typography
@@ -38,21 +41,28 @@ a {
 ==================================== */
 
 /* ---- Layout Containers ---- */
+.journal__title {
+	border:#fff 1px solid;
+}
 
 .container {
   padding-left: 1em;
   padding-right: 1em;
+  height:auto;
+  border: 1px rgb(230, 28, 203) solid;
 }
 
 .main-header {
 	padding: 1.5em 0;
 	background: #3acec2;
+	border: 1px black solid;
 }
 
 .main-footer { 
 	text-align: center;
 	padding: 2em 0;
 	background: #d9e4ea;
+	border: 1px black solid;
 }
 
 /* ================================= 
